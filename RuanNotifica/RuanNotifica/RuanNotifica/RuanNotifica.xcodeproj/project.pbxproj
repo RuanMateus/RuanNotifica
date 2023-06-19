@@ -7,10 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C37517C92A40CA1E00680CFF /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37517C82A40CA1E00680CFF /* Coordinator.swift */; };
-		C37517CB2A40CA7E00680CFF /* LoginCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37517CA2A40CA7E00680CFF /* LoginCoordinator.swift */; };
-		C37517CE2A40CC1A00680CFF /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37517CD2A40CC1A00680CFF /* LoginView.swift */; };
-		C37517D02A40CC3C00680CFF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37517CF2A40CC3C00680CFF /* LoginViewController.swift */; };
 		C3C0AAC42A40A6D4000DCFA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C0AAC32A40A6D4000DCFA7 /* AppDelegate.swift */; };
 		C3C0AAC62A40A6D4000DCFA7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C0AAC52A40A6D4000DCFA7 /* SceneDelegate.swift */; };
 		C3C0AAC82A40A6D4000DCFA7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C0AAC72A40A6D4000DCFA7 /* ViewController.swift */; };
@@ -41,10 +37,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C37517C82A40CA1E00680CFF /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
-		C37517CA2A40CA7E00680CFF /* LoginCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCoordinator.swift; sourceTree = "<group>"; };
-		C37517CD2A40CC1A00680CFF /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
-		C37517CF2A40CC3C00680CFF /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		C3C0AAC02A40A6D4000DCFA7 /* RuanNotifica.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RuanNotifica.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3C0AAC32A40A6D4000DCFA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C3C0AAC52A40A6D4000DCFA7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -86,38 +78,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C37517C62A40C84200680CFF /* Resource */ = {
-			isa = PBXGroup;
-			children = (
-				C3C0AAC32A40A6D4000DCFA7 /* AppDelegate.swift */,
-				C3C0AAC52A40A6D4000DCFA7 /* SceneDelegate.swift */,
-				C3C0AAC72A40A6D4000DCFA7 /* ViewController.swift */,
-				C3C0AAD12A40A6D6000DCFA7 /* LaunchScreen.storyboard */,
-				C3C0AAC92A40A6D4000DCFA7 /* Main.storyboard */,
-				C3C0AACF2A40A6D6000DCFA7 /* Assets.xcassets */,
-				C3C0AACC2A40A6D4000DCFA7 /* RuanNotifica.xcdatamodeld */,
-			);
-			path = Resource;
-			sourceTree = "<group>";
-		};
-		C37517C72A40C9E600680CFF /* Coordinator */ = {
-			isa = PBXGroup;
-			children = (
-				C37517C82A40CA1E00680CFF /* Coordinator.swift */,
-				C37517CA2A40CA7E00680CFF /* LoginCoordinator.swift */,
-			);
-			path = Coordinator;
-			sourceTree = "<group>";
-		};
-		C37517CC2A40CBDE00680CFF /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				C37517CD2A40CC1A00680CFF /* LoginView.swift */,
-				C37517CF2A40CC3C00680CFF /* LoginViewController.swift */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
 		C3C0AAB72A40A6D4000DCFA7 = {
 			isa = PBXGroup;
 			children = (
@@ -141,10 +101,14 @@
 		C3C0AAC22A40A6D4000DCFA7 /* RuanNotifica */ = {
 			isa = PBXGroup;
 			children = (
-				C37517CC2A40CBDE00680CFF /* Controller */,
-				C37517C72A40C9E600680CFF /* Coordinator */,
-				C37517C62A40C84200680CFF /* Resource */,
+				C3C0AAC32A40A6D4000DCFA7 /* AppDelegate.swift */,
+				C3C0AAC52A40A6D4000DCFA7 /* SceneDelegate.swift */,
+				C3C0AAC72A40A6D4000DCFA7 /* ViewController.swift */,
+				C3C0AAC92A40A6D4000DCFA7 /* Main.storyboard */,
+				C3C0AACF2A40A6D6000DCFA7 /* Assets.xcassets */,
+				C3C0AAD12A40A6D6000DCFA7 /* LaunchScreen.storyboard */,
 				C3C0AAD42A40A6D6000DCFA7 /* Info.plist */,
+				C3C0AACC2A40A6D4000DCFA7 /* RuanNotifica.xcdatamodeld */,
 			);
 			path = RuanNotifica;
 			sourceTree = "<group>";
@@ -297,12 +261,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C37517CB2A40CA7E00680CFF /* LoginCoordinator.swift in Sources */,
-				C37517CE2A40CC1A00680CFF /* LoginView.swift in Sources */,
 				C3C0AACE2A40A6D4000DCFA7 /* RuanNotifica.xcdatamodeld in Sources */,
 				C3C0AAC82A40A6D4000DCFA7 /* ViewController.swift in Sources */,
-				C37517D02A40CC3C00680CFF /* LoginViewController.swift in Sources */,
-				C37517C92A40CA1E00680CFF /* Coordinator.swift in Sources */,
 				C3C0AAC42A40A6D4000DCFA7 /* AppDelegate.swift in Sources */,
 				C3C0AAC62A40A6D4000DCFA7 /* SceneDelegate.swift in Sources */,
 			);
