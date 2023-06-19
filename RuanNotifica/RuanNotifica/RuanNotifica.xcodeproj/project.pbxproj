@@ -118,6 +118,15 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
+		C37517D12A40D52400680CFF /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				C37517C72A40C9E600680CFF /* Coordinator */,
+				C37517CC2A40CBDE00680CFF /* Controller */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
 		C3C0AAB72A40A6D4000DCFA7 = {
 			isa = PBXGroup;
 			children = (
@@ -141,8 +150,7 @@
 		C3C0AAC22A40A6D4000DCFA7 /* RuanNotifica */ = {
 			isa = PBXGroup;
 			children = (
-				C37517CC2A40CBDE00680CFF /* Controller */,
-				C37517C72A40C9E600680CFF /* Coordinator */,
+				C37517D12A40D52400680CFF /* Source */,
 				C37517C62A40C84200680CFF /* Resource */,
 				C3C0AAD42A40A6D6000DCFA7 /* Info.plist */,
 			);
