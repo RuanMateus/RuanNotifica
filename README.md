@@ -1,4 +1,4 @@
 # RuanNotifica1
  Aplicativo de registro e gerenciamento para o IFB
 
- A pasta que contem o conteúdo atualizado é a *RuanNotifica - cópia*, de todos os commits
+ A pasta que contem o conteúdo atualizado de todos os commits é a *RuanNotifica - cópia*, cada brench tem a sua pasta *RuanNotifica - cópia*, que é a correta para aquela brench!!
